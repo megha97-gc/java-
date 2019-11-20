@@ -1,0 +1,51 @@
+methods of webdriver:
+
+1.get(String URL):
+return type void 
+it used to load the URL.
+
+
+2.getwindowHandle()
+return type String
+it is used to handle single window.ie main window.
+
+3.getWindowHandles()
+return type set<string>
+it is used to handle multiple windows.it will returns all handles from all opened browser by selenium web driver
+
+
+4.close()
+return type is void.
+this is used to close the current browser window which is currently in focus.
+
+5.quit()
+return type void 
+this mwthod will close all the browsers windows which are currently opened and terminates the web driver session.
+
+6.getTitle()
+return type String
+this is used to retrieve the title of the webpage the user currntly working on.
+
+7.manage()
+return type options.
+it is used to the browser window.
+
+8.Window()
+return type Window
+present in option class.
+it displays window.
+
+9.getClass()
+it is used to retrieve the class object.that represents the runtime class of this object.
+
+10.getCurrentUrl()
+return type is String.
+this is used to retrieve the URL of the webpage the user is currently accessing.
+
+11.navigatr.to("String url ")
+it allows the selection of what to do next.
+
+12.switchTo()
+it is used to switch from one window to another window.
+
+
